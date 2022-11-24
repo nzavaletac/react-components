@@ -1,6 +1,7 @@
 .container {
   background-color: #212121;
   height: 40px;
+  margin: 10px;
 }
 
 /* === removing default button style ===*/

@@ -1,4 +1,5 @@
 import { Container } from "./AppElements";
+import { BasicButton } from "./components/BasicButton";
 import { ButtonLetter } from "./components/ButtonLetter";
 import { Info1Card } from "./components/Info1Card";
 import { InfoCard } from "./components/InfoCard";
@@ -15,6 +16,7 @@ function App() {
       <MagicButton />
       <LoginCard />
       <ButtonLetter />
+      <BasicButton />
     </Container>
   );
 }
