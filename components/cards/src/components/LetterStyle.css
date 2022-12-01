@@ -1,0 +1,22 @@
+.letra {
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 18ch;
+  animation: typing 2s steps(18), link 0.5s infinite step-end alternate;
+  overflow: hidden;
+  height: 25px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

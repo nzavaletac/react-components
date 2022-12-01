@@ -3,6 +3,7 @@ import { BasicButton } from "./components/BasicButton";
 import { ButtonLetter } from "./components/ButtonLetter";
 import { Info1Card } from "./components/Info1Card";
 import { InfoCard } from "./components/InfoCard";
+import { Letter } from "./components/Letter";
 import { LoginCard } from "./components/LoginCard";
 import { MagicButton } from "./components/MagicButton";
 import { ProductCard } from "./components/ProductCard";
@@ -17,6 +18,7 @@ function App() {
       <LoginCard />
       <ButtonLetter />
       <BasicButton />
+      <Letter />
     </Container>
   );
 }
